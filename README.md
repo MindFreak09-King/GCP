@@ -1,7 +1,3 @@
-
-A shorter version:
-
-```md
 # GCP
 
 Main installer script for this repository.
