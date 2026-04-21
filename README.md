@@ -1,8 +1,8 @@
-# GCP
+# GOOGLE CLOUD SHELL
 
-Main installer script for this repository.
+# XRAY FULL INSTALLER FIXED
 
-## Usage
+## Installer
 
 ```bash
 curl -fL "https://raw.githubusercontent.com/MindFreak09-King/GCP/refs/heads/main/installer.sh" -o installer.sh
