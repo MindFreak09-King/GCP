@@ -1,20 +1,14 @@
+
+A shorter version:
+
+```md
 # GCP
 
-Project files for deployment and setup.
+Main installer script for this repository.
 
-## Files
-
-- `installer.sh` — main setup script
-- `README.md` — project notes and basic usage
-
-## Requirements
-
-- Linux shell environment
-- `curl`
-- `chmod`
-- access to the target environment where the script will be run
-
-## Download
+## Usage
 
 ```bash
 curl -fL "https://raw.githubusercontent.com/MindFreak09-King/GCP/refs/heads/main/installer.sh" -o installer.sh
+chmod +x installer.sh
+./installer.sh
