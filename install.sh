@@ -3,7 +3,6 @@
 #      8-in-1 BOYSUPOTPH - NO KEY (ULTIMATE)
 # ==============================================
 
-
 # 1. SETUP DIRECTORY
 cd ~ && rm -rf boysupotph && mkdir boysupotph && cd boysupotph
 
@@ -26,7 +25,6 @@ spawn('/usr/bin/xray', ['run', '-c', '/app/config.json']);
 app.listen(process.env.PORT || 8080);
 EOF
 sed -n '1,80p' server.js
-
 
 # 3. CREATE XRAY CONFIG (VLESS + VMESS + TROJAN + SS)
 cat > config.json <<'EOF'
@@ -57,7 +55,6 @@ cat > config.json <<'EOF'
 }
 EOF
 sed -n '1,80p' config.json
-
 
 # 4. CREATE CYBER-GLASS UI (DIRECT ACCESS - NO KEY)
 mkdir -p public
@@ -120,7 +117,6 @@ cat > public/index.html <<'EOF'
 </html>
 EOF
 sed -n '1,200p' public/index.html
-
 
 # 5. DOCKERFILE
 cat > Dockerfile <<'EOF'
